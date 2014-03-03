@@ -1,0 +1,13 @@
+NAME,LF,,RF,LB,,RB,,,,,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def
+CMD_TYPE,H
+CMD_ASCII,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def
+CMD_HEX,0C000100819E0261000300313100,FF,0C000100819E0261000300333100,0C000100819E0261000300323100,FF,0C000100819E0261000300343100,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF
+ENABLE_STOPCMD_ASCII,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+ENABLE_STOPCMD_HEX,t,t,t,t,t,t,t,t,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+STOPCMD_ASCII,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def,def
+STOPCMD_HEX,0C000100819E0261000300313000,FF,0C000100819E0261000300333000,0C000100819E0261000300323000,FF,0C000100819E0261000300343000,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF
+VISIBLE,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+REPEAT_TYPE,f
+REPEAT_INTERVAL,0
+REPEATABLE,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+REPEAT_INTERVAL_INDIVIDUAL,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000
