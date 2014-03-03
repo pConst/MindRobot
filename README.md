@@ -1,8 +1,8 @@
 #lego_mindstorms_robot
-###Lego Mindstorms NXT robot with bluetooth, IR control and autonomous mode
+###Lego Mindstorms NXT robot with Bluetooth, IR control and Autonomous mode
 
 
-* Robot act in 3 modes:
+* Robot acts in three modes:
     * IR remote conrol
 	* Bluetooth remote control
 	* Autonomous mode
@@ -14,15 +14,13 @@
 
 ####Mindstorms NXT Bluetooth interface:
 Every button press in Bluetooth Serial Controller app initiates sending one of folowing HEX sequences. Protocol is not hard to reverse - it`s obvious!
-> 0C000100819E0261000300313000
-> 0C000100819E0261000300323000
-> 0C000100819E0261000300333000
-> 0C000100819E0261000300343000
+	0C000100819E0261000300313000
+	0C000100819E0261000300323000
+	0C000100819E0261000300333000
+	0C000100819E0261000300343000
 In Minstorms studio this sequences get processed by standard text messaging receive block. See ~~code~~ graphical diagram for details.
 
-
 ####TODO:
-* Autonomous mode. Robot should explore environs and "map" plases into his memory, then return and show collected data )))
-* Photos and videos
-
-
+* Autonomous mode. Robot should explore environs and "map" plases into his memory, then return back to the base and show collected data )))
+* Robot photos and videos
+* Take over the world
