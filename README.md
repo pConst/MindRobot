@@ -14,10 +14,12 @@
 
 ####Mindstorms NXT Bluetooth interface:
 Every button press in Bluetooth Serial Controller app initiates sending one of folowing HEX sequences. Protocol is not hard to reverse - it`s obvious!
+
 	0C000100819E0261000300313000
 	0C000100819E0261000300323000
 	0C000100819E0261000300333000
 	0C000100819E0261000300343000
+
 In Minstorms studio this sequences get processed by standard text messaging receive block. See ~~code~~ graphical diagram for details.
 
 ####TODO:
